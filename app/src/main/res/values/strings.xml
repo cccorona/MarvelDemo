@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Heroes</string>
+    <string name="error_no_info">Información no disponible</string>
+    <string name="error_server">Servidor no disponible</string>
+    <string name="heroes_disponibles">Available Heroes</string>
+    <string name="nombre_real">Real name:</string>
+    <string name="poderes">Powers:</string>
+    <string name="habilidades">Abilities:</string>
+    <string name="altura">Height:</string>
+    <string name="grupos">Groups:</string>
+</resources>

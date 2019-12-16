@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_margin="4dp"
+    android:layout_height="280dp">
+
+
+    <androidx.cardview.widget.CardView
+        android:translationZ="50dp"
+        android:layout_centerInParent="true"
+        card_view:cardElevation="10dp"
+        card_view:cardBackgroundColor="@color/marvel_blue"
+        card_view:cardCornerRadius="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_width="150dp"
+        android:layout_height="140dp">
+
+
+
+        <RelativeLayout
+            android:background="#323232"
+            android:layout_margin="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textAllCaps="false"
+                android:textColor="#FFF"
+                android:id="@+id/name"
+                android:lines="2"
+                android:maxLines="2"
+                android:fontFamily="@font/avg"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+
+        </RelativeLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+    <RelativeLayout
+        android:layout_marginTop="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:translationZ="80dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/marvel_logo"
+            app:civ_border_width="0dp"
+            />
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
+
+
+
+
+
